@@ -1,0 +1,105 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Form Container Styling */
+form {
+    background: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Form Title */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #0072ff;
+}
+
+/* Input Fields */
+input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Dropdown Styling */
+select {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Input Focus Styling */
+input[type="text"]:focus, input[type="password"]:focus, select:focus {
+    border: 1px solid #0072ff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 114, 255, 0.2);
+}
+
+/* Buttons */
+button {
+    background: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background: #0056cc;
+}
+
+/* Back Button */
+.back-button {
+    background: #555555;
+    margin-top: 15px;
+}
+
+.back-button:hover {
+    background: #333333;
+}
+
+/* Error Message */
+p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: red;
+}
+
+/* Success message style */
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Green for success */
+p[style*="color:green;"] {
+    color: #28a745;
+}
+
+/* Red for error */
+p[style*="color:red;"] {
+    color: #dc3545;
+}
